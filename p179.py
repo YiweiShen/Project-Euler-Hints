@@ -23,4 +23,4 @@ if __name__ == '__main__':
             sum += 1
     print(sum)
 
-# this script can produce the right answer, however, to slow
+# this script can produce the right answer, however, too slow
