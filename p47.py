@@ -14,7 +14,7 @@ def cal_prime_factors(n):
 
 def check(n):
     if cal_prime_factors(n) == 4 and cal_prime_factors(n+1) == 4 and cal_prime_factors(n+2) == 4 and cal_prime_factors(n+3) == 4:
-        # this method is very slow, and a lot of repeat calculations
+        # this method is very slow, and a lot of repeated calculations
         print(n)
         return n
     return None
